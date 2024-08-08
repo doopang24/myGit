@@ -1,0 +1,29 @@
+.root {	
+	-fx-font-family: 'Arial';
+	-fx-font-size: 17px;
+	-fx-padding: 15;
+	-fx-background-color: #f0f0f0;
+}
+
+.button {
+	-fx-background-color:#9933ff;
+	-fx-text-fill: white;
+	-fx-padding: 5 20;
+	-fx-border-radius: 5;
+	-fx-background-radius: 5;
+}
+
+.text-field {
+	-fx-padding: 10;
+	-fx-background-color: #ffffff;
+	-fx-border-color: #cccccc;
+	-fx-border-radius: 5;
+	-fx-background-radius: 5;
+}
+
+.list-view {
+	-fx-background-color: #ffffff;
+	-fx-border-color: #cccccc;
+	-fx-border-radius: 5;
+	-fx-background-radius: 5;
+}

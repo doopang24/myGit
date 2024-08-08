@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ListView?>
+
+<VBox spacing="10" alignment="CENTER" 
+	xmlns="http://javafx.com/javafx/8" 
+	xmlns:fx="http://javafx.com/fxml/1" 
+	fx:controller="sjy.firstproject.javafx_todolist.TodoListController" 
+	stylesheets="@style.css">
+	
+	<TextField fx:id="inputField" promptText="Enter a task"/>
+	<TextField fx:id="editField" promptText="Edit selected task"/>	
+		<HBox spacing="10" alignment="CENTER">
+			<Button text="Add Task" onAction="#handleAddTask"/>
+			<Button text="Edit selected Task" onAction="#handleEditTask"/>
+			<Button text="Delete Selected Task" onAction="#handleDeleteTask"/>
+		</HBox>
+	<ListView fx:id="taskList"/>
+</VBox>
+
